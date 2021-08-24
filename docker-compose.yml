@@ -4,7 +4,8 @@ services:
   app:
     build: .
     
-    command: ruby app.rb
+    ports:
+      - "10080:4567"
 
     volumes:
       - .:/app
