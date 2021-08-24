@@ -6,3 +6,5 @@ services:
 
     volumes:
       - .:/app
+      - ./vendor/docker/bundle:/usr/local/bundle
+
